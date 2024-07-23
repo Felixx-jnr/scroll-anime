@@ -1,20 +1,32 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { Container } from "./Container";
+import { Button } from "./Button";
+import { faApple } from "@fortawesome/free-brands-svg-icons/faApple";
+
 export const Header = () => {
   return (
     <>
-      <header className=" bg-backgroundContrast flex min-h-11 items-center px-6 text-white">
-        <a
-          href="/"
-          className="-ml-6 flex h-11 items-center px-6"
-        >
-          <span className=" sr-only">Back to homepage</span>🍏
-        </a>
+      <header className=" bg-backgroundContrast  text-white">
+        <Container className="flex min-h-11 items-center">
+          <a
+            href="/"
+            className="-ml-6 flex h-11 items-center px-6 text-xl"
+          >
+            <span className=" sr-only">Back to homepage</span>
+            <FontAwesomeIcon icon={faApple} />
+          </a>
+        </Container>
       </header>
 
       <div
-        className=" bg-backgroundContrast 
-       px-6 text-white"
+        className=" sticky top-0 bg-backgroundContrast 
+       px-6 text-white "
       >
-        Apple TV+
+        <Container className="flex min-h-11 items-center justify-between">
+          <p className="text-xl font-semibold">Apple TV+</p>
+          <Button size="small">Test</Button>
+        </Container>
       </div>
     </>
   );

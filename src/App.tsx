@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import { Container } from "./components/Container";
 
 import "./index.css";
 
@@ -7,10 +8,18 @@ function App() {
     <>
       <Header />
       <main>
-        <div className=" h-[300vh]">Hero Component</div>
-        <div>usp</div>
-        <div>3 column</div>
-        <div>carousel</div>
+        <div className=" h-[300vh]">
+          <Container> Hero Component</Container>
+        </div>
+        <div>
+          <Container> usp </Container>
+        </div>
+        <div>
+          <Container> 3 column container </Container>
+        </div>
+        <div>
+          <Container> carousel </Container>
+        </div>
       </main>
     </>
   );
