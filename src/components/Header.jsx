@@ -8,10 +8,10 @@ export const Header = () => {
   return (
     <>
       <header className=" bg-backgroundContrast  text-white">
-        <Container className="flex min-h-11 items-center">
+        <Container className="flex min-h-[--header-row-height] items-center">
           <a
             href="/"
-            className="-ml-6 flex h-11 items-center px-6 text-xl"
+            className="-ml-6 flex h-[--header-row-height] items-center px-6 text-xl"
           >
             <span className=" sr-only">Back to homepage</span>
             <FontAwesomeIcon icon={faApple} />
@@ -23,7 +23,7 @@ export const Header = () => {
         className=" sticky top-0 bg-backgroundContrast 
        px-6 text-white "
       >
-        <Container className="flex min-h-11 items-center justify-between">
+        <Container className="flex min-h-[--header-row-height] items-center justify-between">
           <p className="text-xl font-semibold">Apple TV+</p>
           <Button size="small">Test</Button>
         </Container>

@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import { Container } from "./components/Container";
+import { Hero } from "./components/section/hero";
 
 import "./index.css";
 
@@ -8,9 +9,7 @@ function App() {
     <>
       <Header />
       <main>
-        <div className=" h-[300vh]">
-          <Container> Hero Component</Container>
-        </div>
+        <Hero />
         <div>
           <Container> usp </Container>
         </div>
