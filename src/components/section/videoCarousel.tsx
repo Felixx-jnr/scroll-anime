@@ -70,21 +70,35 @@ export const VideoCarousel = () => {
               style={{ opacity: postersOpacity, x: posterTranslateXLeft }}
               className="aspect-[9/16] w-[300px] shrink-0 overflow-clip rounded-2xl md:aspect-video md:w-[60vw]"
             >
-              <img
-                className="h-full w-full object-cover"
-                src={movies[0].poster}
-                alt={movies[0].name}
-              />
+              <video
+                className=" h-full w-full object-cover"
+                autoPlay
+                loop
+                muted
+              >
+                <source
+                  src="/images/Johnnie Walker.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
             </motion.div>
             <motion.div
               style={{ scale }}
               className="relative aspect-[9/16] w-[300px] shrink-0 overflow-clip rounded-2xl md:aspect-video md:w-[60vw]"
             >
-              <img
-                className="h-full w-full object-cover"
-                src={movies[1].poster}
-                alt={movies[1].name}
-              />
+              <video
+                className=" h-full w-full object-cover"
+                autoPlay
+                loop
+                muted
+              >
+                <source
+                  src="/images/Johnnie.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
               <motion.div
                 variants={{
                   active: { opacity: 1 },
@@ -100,11 +114,18 @@ export const VideoCarousel = () => {
               style={{ opacity: postersOpacity, x: posterTranslateXRight }}
               className="aspect-[9/16] w-[300px] shrink-0 overflow-clip rounded-2xl md:aspect-video md:w-[60vw]"
             >
-              <img
-                className="h-full w-full object-cover"
-                src={movies[2].poster}
-                alt={movies[2].name}
-              />
+              <video
+                className=" h-full w-full object-cover"
+                autoPlay
+                loop
+                muted
+              >
+                <source
+                  src="/images/Greenwalker.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
             </motion.div>
           </div>
         </div>
@@ -136,11 +157,15 @@ const SmallVideoCarousel = ({ movies }: { movies: Movie[] }) => {
             className="aspect-video w-[40vw] shrink-0 md:w-[23vw]"
             key={`${movie.name}-${index}`}
           >
-            <img
-              className="h-full w-full rounded-xl object-cover"
-              src={movie.poster}
-              alt={movie.name}
-            />
+            <video
+              className=" h-full w-full rounded-xl object-cover"
+              autoPlay
+              loop
+              muted
+            >
+              <source src={movie.poster} />
+              Your browser does not support the video tag.
+            </video>
           </div>
         ))}
       </div>

@@ -18,11 +18,18 @@ export const Hero = () => {
         ref={videoContainerRef}
         className="absolute -top-[--header-height] left-0 h-[200vh] w-full"
       >
-        <img
+        <video
           className="sticky top-0 h-screen w-full object-cover"
-          src="/images/napoleon.webp"
-          alt=""
-        />
+          autoPlay
+          loop
+          muted
+        >
+          <source
+            src="/images/Johnnie Walker.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
       </motion.div>
       <Container className="relative z-10 h-[--hero-height] pb-7">
         <motion.div
@@ -37,14 +44,14 @@ export const Hero = () => {
           viewport={{ amount: 0.98 }}
         >
           <h1 className="mb-10 text-4xl font-bold md:text-5xl">
-            All Apple Originals. <br />
-            Only on Apple TV+.
+            JOHNNIE WALKER <br />
+            KEEP WALKING
           </h1>
           <Button
             className="mb-16"
             size="large"
           >
-            Stream now
+            GET NOW
           </Button>
           <p className="font-semibold">Watch on the 📺 app.</p>
         </motion.div>

@@ -5,27 +5,27 @@ export type Movie = {
 
 export const movies = [
   {
-    poster: "/images/airplane.webp",
+    poster: "/images/Blackwalker.mp4",
     name: "Airplane",
   },
   {
-    poster: "/images/family-man.webp",
+    poster: "/images/Blackwalkertwo.mp4",
     name: "Family man",
   },
   {
-    poster: "/images/laboratory.webp",
+    poster: "/images/Bluewalker.mp4",
     name: "Laboratory",
   },
-  { poster: "/images/napoleon.webp", name: "Napoleon" },
+  { poster: "/images/Greenwalker.mp4", name: "Napoleon" },
   {
-    poster: "/images/person-in-darkness.webp",
+    poster: "/images/Johnnie Walker.mp4",
     name: "Person in Darkness",
   },
   {
-    poster: "/images/scary-building.webp",
+    poster: "/images/Johnnie.mp4",
     name: "Scary Building",
   },
-  { poster: "/images/stars.webp", name: "Stars" },
+  { poster: "/images/Redwalker.mp4", name: "Red label" },
 ];
 
 export const randomMoviesSet1 = movies

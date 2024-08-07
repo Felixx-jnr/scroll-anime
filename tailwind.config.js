@@ -7,6 +7,7 @@ export default {
       backgroundContrast: "#111",
       textBlack: "#1d1d1f",
       white: "#fff",
+      brown: "#8a6828",
     },
     fontFamily: {
       sans: [
