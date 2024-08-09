@@ -53,7 +53,10 @@ export const Hero = () => {
           >
             GET NOW
           </Button>
-          <p className="font-semibold">Watch on the 📺 app.</p>
+          <p className="font-semibold max-md:text-xs">
+            Please do not share with anyone under the legal purchase age for
+            alcohol. Drink responsibly
+          </p>
         </motion.div>
       </Container>
     </div>
