@@ -4,7 +4,7 @@ import {
   motion,
   useMotionValueEvent,
 } from "framer-motion";
-import { movies } from "../../movies";
+
 import { randomMoviesSet1 } from "../../movies";
 import { randomMoviesSet2 } from "../../movies";
 import { useMemo, useRef, useState } from "react";
@@ -58,7 +58,7 @@ export const VideoCarousel = () => {
   return (
     <motion.div
       animate={carouselVariant}
-      className="bg-background pb-16"
+      className="bg-background pb-16 font-bebas"
     >
       <div
         ref={carouselWrapperRef}
@@ -106,7 +106,6 @@ export const VideoCarousel = () => {
                 }}
                 className="absolute bottom-0 left-0 flex w-full flex-col items-center gap-4 p-5 text-lg text-white md:flex-row md:justify-between md:gap-0"
               >
-                <p>Best video title ever</p>
                 <Button>Watch now</Button>
               </motion.div>
             </motion.div>

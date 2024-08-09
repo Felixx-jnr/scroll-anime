@@ -3,7 +3,7 @@ import { FadeIn } from "../FadeIn";
 
 export const Usps = () => {
   return (
-    <Container className="relative z-10 max-w-[692px] space-y-12 py-36 text-3xl font-bold text-white md:text-4xl">
+    <Container className="relative z-10 max-w-[692px] space-y-12 py-36 text-3xl font-bold text-white md:text-4xl font-bebas">
       <FadeIn>
         <p>Visit Johnnie Walker Princes Street in Edinburgh</p>
       </FadeIn>

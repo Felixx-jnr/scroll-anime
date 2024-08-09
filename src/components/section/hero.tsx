@@ -12,7 +12,7 @@ export const Hero = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.7, 1], [1, 1, 0]);
 
   return (
-    <div className="bg-background text-white">
+    <div className="bg-background text-white font-bebas">
       <motion.div
         style={{ opacity }}
         ref={videoContainerRef}
@@ -53,7 +53,7 @@ export const Hero = () => {
           >
             GET NOW
           </Button>
-          <p className="font-semibold max-md:text-xs">
+          <p className=" max-md:text-xs">
             Please do not share with anyone under the legal purchase age for
             alcohol. Drink responsibly
           </p>

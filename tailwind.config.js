@@ -7,16 +7,10 @@ export default {
       backgroundContrast: "#111",
       textBlack: "#1d1d1f",
       white: "#fff",
-      brown: "#8a6828",
+      brown: "#bb7c1e",
     },
     fontFamily: {
-      sans: [
-        "SF Pro Display",
-        "Helvetica Neue",
-        "Helvetica",
-        "Arial",
-        "sans-serif",
-      ],
+      bebas: ["Bebas Neue"],
     },
     fontSize: {
       xs: "0.75rem", // 12px

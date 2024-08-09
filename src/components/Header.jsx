@@ -6,7 +6,7 @@ import { Button } from "./Button";
 export const Header = () => {
   return (
     <>
-      <header className="bg-brown relative z-20 text-white">
+      <header className="bg-brown relative z-20 text-white ">
         <Container className="flex min-h-[--header-row-height] items-center">
           <div className="w-[100%] ">
             <img
