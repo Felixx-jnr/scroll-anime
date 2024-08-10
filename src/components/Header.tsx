@@ -1,7 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { Container } from "./Container";
-import { Button } from "./Button";
 
 export const Header = () => {
   return (
