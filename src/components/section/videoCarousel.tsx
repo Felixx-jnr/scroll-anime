@@ -5,7 +5,7 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 
-import { randomMoviesSet1 } from "../../movies";
+import { Movie, randomMoviesSet1 } from "../../movies";
 import { randomMoviesSet2 } from "../../movies";
 import { useMemo, useRef, useState } from "react";
 import { useWindowSize } from "react-use";
