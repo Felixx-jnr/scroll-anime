@@ -25,7 +25,7 @@ export const Hero = () => {
           muted
         >
           <source
-            src="/images/Johnnie Walker.mp4"
+            src="https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065774/ghbjnxrjh5ly2gx1qccr.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.

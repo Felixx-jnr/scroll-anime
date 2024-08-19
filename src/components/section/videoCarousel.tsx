@@ -77,7 +77,7 @@ export const VideoCarousel = () => {
                 muted
               >
                 <source
-                  src="/images/Johnnie Walker.mp4"
+                  src="https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065774/ghbjnxrjh5ly2gx1qccr.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -94,7 +94,7 @@ export const VideoCarousel = () => {
                 muted
               >
                 <source
-                  src="/images/Johnnie.mp4"
+                  src="https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065734/hi60ttwmpqjp1afhtuxy.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -120,7 +120,7 @@ export const VideoCarousel = () => {
                 muted
               >
                 <source
-                  src="/images/Greenwalker.mp4"
+                  src="https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065798/onuegyzptver27oa9rdk.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.

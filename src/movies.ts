@@ -5,27 +5,36 @@ export type Movie = {
 
 export const movies = [
   {
-    poster: "/images/Blackwalker.mp4",
-    name: "Airplane",
+    poster:
+      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065774/ghbjnxrjh5ly2gx1qccr.mp4",
+    name: "Black walker",
   },
   {
-    poster: "/images/Blackwalkertwo.mp4",
-    name: "Family man",
+    poster:
+      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065793/k6zrfs91y2aqmnpkckzn.mp4",
+    name: "Black walker",
   },
   {
-    poster: "/images/Bluewalker.mp4",
-    name: "Laboratory",
-  },
-  { poster: "/images/Greenwalker.mp4", name: "Napoleon" },
-  {
-    poster: "/images/Johnnie Walker.mp4",
-    name: "Person in Darkness",
+    poster:
+      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065664/th4oewnn06ubimr6wvil.mp4",
+    name: "Blue walker",
   },
   {
-    poster: "/images/Johnnie.mp4",
-    name: "Scary Building",
+    poster:
+      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065798/onuegyzptver27oa9rdk.mp4",
+    name: "Green walker",
   },
-  { poster: "/images/Redwalker.mp4", name: "Red label" },
+
+  {
+    poster:
+      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065734/hi60ttwmpqjp1afhtuxy.mp4",
+    name: "Johnnie",
+  },
+  {
+    poster:
+      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065779/t5c3cyl3duqrbhcztpzs.mp4",
+    name: "Red Walker",
+  },
 ];
 
 export const randomMoviesSet1 = movies
