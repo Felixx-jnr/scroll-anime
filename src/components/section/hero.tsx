@@ -25,7 +25,7 @@ export const Hero = () => {
           muted
         >
           <source
-            src="https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Label+Commercial+(2026)+(1080p60fps).mp4"
+            src="https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker++-+CINEMATIC+WHISKY+COMMERCIAL+(1080p).mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
