@@ -6,33 +6,33 @@ export type Movie = {
 export const movies = [
   {
     poster:
-      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065774/ghbjnxrjh5ly2gx1qccr.mp4",
+      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker++-+CINEMATIC+WHISKY+COMMERCIAL+(1080p).mp4",
     name: "Black walker",
   },
   {
     poster:
-      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065793/k6zrfs91y2aqmnpkckzn.mp4",
+      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+-+Red+Label+_+CINEMATIC+WHISKY+COMMERCIAL+(1080p).mp4",
     name: "Black walker",
   },
   {
     poster:
-      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065664/th4oewnn06ubimr6wvil.mp4",
+      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Cask+Commercial+(2026)+(1080p60fps).mp4",
     name: "Blue walker",
   },
   {
     poster:
-      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065798/onuegyzptver27oa9rdk.mp4",
+      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Label+(1080p).mp4",
     name: "Green walker",
   },
 
   {
     poster:
-      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065734/hi60ttwmpqjp1afhtuxy.mp4",
+      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Label+Commercial+(2026)+(1080p60fps).mp4",
     name: "Johnnie",
   },
   {
     poster:
-      "https://res.cloudinary.com/dyf0wsiaf/video/upload/v1724065779/t5c3cyl3duqrbhcztpzs.mp4",
+      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Whisky+Johnnie+Walker+Red+Label+commercial+(1080p).mp4",
     name: "Red Walker",
   },
 ];
