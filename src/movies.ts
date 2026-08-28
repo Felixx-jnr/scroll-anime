@@ -6,17 +6,17 @@ export type Movie = {
 export const movies = [
   {
     poster:
-      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker++-+CINEMATIC+WHISKY+COMMERCIAL+(1080p).mp4",
+      "https://felixx-projects.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker++-+CINEMATIC+WHISKY+COMMERCIAL+(1080p).mp4",
     name: "Black walker",
   },
   {
     poster:
-      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+-+Red+Label+_+CINEMATIC+WHISKY+COMMERCIAL+(1080p).mp4",
+      "https://felixx-projects.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+-+Red+Label+_+CINEMATIC+WHISKY+COMMERCIAL+(1080p).mp4",
     name: "Black walker",
   },
   {
     poster:
-      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Cask+Commercial+(2026)+(1080p60fps).mp4",
+      "https://felixx-projects.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Cask+Commercial+(2026)+(1080p60fps).mp4",
     name: "Blue walker",
   },
   {
@@ -27,12 +27,12 @@ export const movies = [
 
   {
     poster:
-      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Label+Commercial+(2026)+(1080p60fps).mp4",
+      "https://felixx-projects.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Label+Commercial+(2026)+(1080p60fps).mp4",
     name: "Johnnie",
   },
   {
     poster:
-      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Whisky+Johnnie+Walker+Red+Label+commercial+(1080p).mp4",
+      "https://felixx-projects.s3.eu-north-1.amazonaws.com/Johnnie/Whisky+Johnnie+Walker+Red+Label+commercial+(1080p).mp4",
     name: "Red Walker",
   },
 ];
