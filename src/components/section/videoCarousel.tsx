@@ -77,7 +77,7 @@ export const VideoCarousel = () => {
                 muted
               >
                 <source
-                  src="https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Whisky+Johnnie+Walker+Red+Label+commercial+(1080p).mp4"
+                  src="https://felixx-projects.s3.eu-north-1.amazonaws.com/Johnnie/Whisky+Johnnie+Walker+Red+Label+commercial+(1080p).mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -94,7 +94,7 @@ export const VideoCarousel = () => {
                 muted
               >
                 <source
-                  src="https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Label+(1080p).mp4"
+                  src="https://felixx-projects.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Label+(1080p).mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -120,7 +120,7 @@ export const VideoCarousel = () => {
                 muted
               >
                 <source
-                  src="https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Cask+Commercial+(2026)+(1080p60fps).mp4"
+                  src="https://felixx-projects.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Cask+Commercial+(2026)+(1080p60fps).mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
