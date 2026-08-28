@@ -21,7 +21,7 @@ export const movies = [
   },
   {
     poster:
-      "https://calvaryhillglobalchurch.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Label+(1080p).mp4",
+      "https://felixx-projects.s3.eu-north-1.amazonaws.com/Johnnie/Johnnie+Walker+Black+Label+(1080p).mp4",
     name: "Green walker",
   },
 
